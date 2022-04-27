@@ -1,0 +1,28 @@
+1 - Receber as notas da 1a. e 2a. avaliações de um aluno. Calcular a média aritmética simples e escrever uma mensagem que diga se o aluno foi ou não aprovado (considerar que nota igual ou maior que 7 o aluno é aprovado). Escrever também a média calculada.
+2 - Receber 3 valores e armazena-los em ordem crescente em um array usando somente estruturas de condição.
+3 - Receber a hora de início e a hora de fim de um jogo de Xadrez (considere apenas horas inteiras, sem os minutos) e calcule a duração do jogo em horas, sabendo-se que o tempo máximo de duração do jogo é de 24 horas e que o jogo pode iniciar em um dia e terminar no dia seguinte.
+4 - Receber o salário fixo e o valor das vendas efetuadas pelo vendedor de uma empresa. Sabendo-se que ele recebe uma comissão de 3% sobre o total das vendas até R$ 1.500,00 mais 5% sobre o que ultrapassar este valor, calcular e escrever o seu salário total.
+5 - Faça um código que receba: quantidade atual em estoque, quantidade máxima em estoque e quantidade mínima em estoque de um produto. Calcular e escrever a quantidade média ((quantidade média = quantidade máxima + quantidade mínima)/2). Se a quantidade em estoque for maior ou igual a quantidade média escrever a mensagem 'Não efetuar compra', senão escrever mensagem 'Efetuar compra'.
+6 - Interprete o seguinte código:
+
+x = int(input("Digite um número: "))
+y = int(input("digite um outro número: "))
+z = (x*y)+5
+if z <= 0:
+    resposta = "A"
+elif z <= 100:
+    resposta = "B"
+else:
+    resposta = "C"
+print("Resultado final: %i. Resposta: %s" %(z,resposta))
+
+Quais os valores serão armazenados em "z" e "resposta" para as seguintes situações:
+a) x = 5 e y = 10
+b) x = 200 e y = 100
+c) x = 27 e y = -34
+d) x = -8 e y =40
+e) x = 50 e y = 3
+
+7 - Escreva um código que receba as idades de 2 homens e de 2 mulheres (considere que as idades dos homens serão sempre diferentes entre si, bem como as das mulheres). Calcule e escreva a soma das idades do homem mais velho com a mulher mais nova, e o produto das idades do homem mais novo com a mulher mais velha.
+
+8 - Faça um código para receber um número que é um código de usuário. Caso este código seja diferente de um código armazenado internamente no algoritmo (código de 6 números de sua escolha) deve ser apresentada a mensagem ‘Usuário inválido!’. Caso o Código seja correto, deve ser lido outro valor que é a senha. Se esta senha estiver incorreta (a certa é C3c@9999#) deve ser mostrada a mensagem ‘senha incorreta’. Caso a senha esteja correta, deve ser mostrada a mensagem ‘Acesso permitido’.
